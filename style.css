@@ -9,7 +9,7 @@ html {
 }
 
 body {
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   line-height: 1.6;
   color: #333;
   background-color: #ffffff;
@@ -149,7 +149,7 @@ section h2 {
   font-size: 18px;
   border-radius: 8px;
   font-weight: 600;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   text-decoration: none;
   display: inline-block;
   text-align: center;
@@ -365,7 +365,7 @@ section h2 {
   font-size: 18px;
   border-radius: 8px;
   font-weight: 600;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   text-decoration: none;
   display: inline-block;
   text-align: center;
@@ -380,7 +380,7 @@ section h2 {
   margin-bottom: 20px;
 }
 
-.form-group>div {
+.form-group > div {
   flex: 1;
   min-width: 200px;
 }
@@ -399,7 +399,7 @@ section h2 {
   border: 1px solid #ddd;
   border-radius: 4px;
   font-size: 16px;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
 }
 
 footer {

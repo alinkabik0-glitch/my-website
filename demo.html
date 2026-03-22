@@ -1,67 +1,68 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Получить демо — BikStay</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Получить демо — BikStay</title>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="style.css">
-</head>
+  <body>
+    <nav>
+      <div class="logo">BIKSTAY</div>
+      <ul>
+        <li><a href="index.html">Главная</a></li>
+      </ul>
+      <a href="account.html" class="btn-account">ЛИЧНЫЙ КАБИНЕТ</a>
+    </nav>
 
-<body>
-
-  <nav>
-    <div class="logo">BIKSTAY</div>
-    <ul>
-      <li><a href="home.html">Главная</a></li>
-    </ul>
-    <a href="account.html" class="btn-account">ЛИЧНЫЙ КАБИНЕТ</a>
-  </nav>
-
-  <section class="form-section">
-    <div class="container">
-      <h2>Получите демо-доступ к BikStay</h2>
-      <p>Мы подготовим персональную демо-базу с вашими данными. Подключение займёт 10 минут.</p>
-      <div class="form-container">
-        <form action="demo.html" method="GET">
-          <div class="form-group">
-            <div>
-              <label for="name">Ваше имя</label>
-              <input type="text" id="name" name="name" required>
+    <section class="form-section">
+      <div class="container">
+        <h2>Получите демо-доступ к BikStay</h2>
+        <p>
+          Мы подготовим персональную демо-базу с вашими данными. Подключение
+          займёт 10 минут.
+        </p>
+        <div class="form-container">
+          <form action="demo.html" method="GET">
+            <div class="form-group">
+              <div>
+                <label for="name">Ваше имя</label>
+                <input type="text" id="name" name="name" required />
+              </div>
+              <div>
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required />
+              </div>
             </div>
             <div>
-              <label for="email">Email</label>
-              <input type="email" id="email" name="email" required>
+              <label for="type">Тип объекта</label>
+              <select id="type" name="type" required>
+                <option value="">— Выберите —</option>
+                <option value="hotel">Отель</option>
+                <option value="hostel">Хостел</option>
+                <option value="apartments">Апартаменты</option>
+                <option value="guesthouse">Гостевой дом</option>
+              </select>
             </div>
-          </div>
-          <div>
-            <label for="type">Тип объекта</label>
-            <select id="type" name="type" required>
-              <option value="">— Выберите —</option>
-              <option value="hotel">Отель</option>
-              <option value="hostel">Хостел</option>
-              <option value="apartments">Апартаменты</option>
-              <option value="guesthouse">Гостевой дом</option>
-            </select>
-          </div>
-          <button type="submit" class="form-btn">ПОЛУЧИТЬ ДЕМО</button>
-        </form>
+            <button type="submit" class="form-btn">ПОЛУЧИТЬ ДЕМО</button>
+          </form>
+        </div>
+        <p style="margin-top: 20px; font-size: 14px; color: #666">
+          После отправки формы наш менеджер свяжется с вами и настроит
+          демо-доступ в течение 10 минут.
+        </p>
       </div>
-      <p style="margin-top: 20px; font-size: 14px; color: #666;">
-        После отправки формы наш менеджер свяжется с вами и настроит демо-доступ в течение 10 минут.
-      </p>
-    </div>
-  </section>
+    </section>
 
-  <footer>
-    <div class="container">
-      <div class="footer-copyright">
-        ©2025 BikStay — Демо-доступ
+    <footer>
+      <div class="container">
+        <div class="footer-copyright">©2025 BikStay — Демо-доступ</div>
       </div>
-    </div>
-  </footer>
-
-</body>
-
+    </footer>
+  </body>
 </html>
